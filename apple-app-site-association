@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "5PJ977824G.com.namogoo.CustomerJourneyMockStore",
+      "paths": ["*"]
+    }
+    ]
+  }
+}
