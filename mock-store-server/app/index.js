@@ -19,7 +19,7 @@ console.log("Ran index.js")
 
 const http = require('http');
 
-const hostname = 'namogoo-test-store.herokuapp.com';
+const hostname = 'https://namogoo-test-store.herokuapp.com';
 const port = 80;
 
 const server = http.createServer((req, res) => {
