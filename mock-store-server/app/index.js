@@ -1,23 +1,24 @@
 console.log("Ran index.js")
 
-// const http = require('http'),
-//     fs = require('fs');
+const http = require('http'),
+    fs = require('fs');
 
 
 
-
-// fs.readFile('./index.html', function (err, html) {
-//     if (err) {
-//         throw err;
-//     }
+let aasaContent;
+fs.readFile('../apple-app-site-association', function (err, data) {
+    if (err) {
+        throw err;
+    }
+    aasaContent = data;
 //     http.createServer(function(request, response) {
 //         response.setHeader(200, {"Content-Type": "application/json"});
 //         response.write("lol");
 //         response.end();
 //     }).listen(8000);
-// });
+});
 
-const http = require('http');
+// const http = require('http');
 //
 const hostname = 'namogoo-test-store.herokuapp.com';
 const port = 80;
@@ -25,7 +26,7 @@ const port = 80;
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World');
+    res.end(aasaContent);
 }).listen(process.env.PORT || 5000)
 //
 // server.listen(port, hostname, () => {
