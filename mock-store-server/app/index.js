@@ -25,18 +25,24 @@ const port = 80;
 //
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
-    res.setHeader('Content-Type', 'application/json');
-    res.end("{\n" +
-        "  \"applinks\": {\n" +
-        "    \"apps\": [],\n" +
-        "    \"details\": [\n" +
-        "    {\n" +
-        "      \"appID\": \"5PJ977824G.com.namogoo.CustomerJourneyMockStore\",\n" +
-        "      \"paths\": [\"*\"]\n" +
-        "    }\n" +
-        "    ]\n" +
-        "  }\n" +
-        "}");
+    if (req.url.indexOf("apple")) {
+        res.setHeader('Content-Type', 'application/json');
+        res.end("{\n" +
+            "  \"applinks\": {\n" +
+            "    \"apps\": [],\n" +
+            "    \"details\": [\n" +
+            "    {\n" +
+            "      \"appID\": \"5PJ977824G.com.namogoo.CustomerJourneyMockStore\",\n" +
+            "      \"paths\": [\"*\"]\n" +
+            "    }\n" +
+            "    ]\n" +
+            "  }\n" +
+            "}");
+    } else {
+        res.setHeader('Content-Type', 'text/html')
+        res.end("<html><head><title>helllllllo</title></head><body>meow</body></html>")
+    }
+
 }).listen(process.env.PORT || 5000)
 //
 // server.listen(port, hostname, () => {
