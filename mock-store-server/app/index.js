@@ -1,7 +1,7 @@
 console.log("Ran index.js")
 
-const http = require('http'),
-    fs = require('fs');
+// const http = require('http'),
+//     fs = require('fs');
 
 
 
@@ -10,9 +10,9 @@ const http = require('http'),
 //     if (err) {
 //         throw err;
 //     }
-    http.createServer(function(request, response) {
-        response.setHeader(200, {"Content-Type": "application/json"});
-        response.write("lol");
-        response.end();
-    }).listen(8000);
+//     http.createServer(function(request, response) {
+//         response.setHeader(200, {"Content-Type": "application/json"});
+//         response.write("lol");
+//         response.end();
+//     }).listen(8000);
 // });
