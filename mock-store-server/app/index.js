@@ -19,16 +19,16 @@ console.log("Ran index.js")
 
 const http = require('http');
 //
-// const hostname = 'namogoo-test-store.herokuapp.com';
-// const port = 80;
+const hostname = 'namogoo-test-store.herokuapp.com';
+const port = 80;
 //
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello World');
-});
+}).listen(80);
 //
-server.listen(port, hostname, () => {
-    console.log("meow");
+// server.listen(port, hostname, () => {
+//     console.log("meow");
     // console.log(`Server running at http://${hostname}:${port}/`);
-});
+// });
