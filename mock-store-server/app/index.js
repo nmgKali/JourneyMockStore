@@ -40,7 +40,7 @@ const server = http.createServer((req, res) => {
             "}");
     } else {
         res.setHeader('Content-Type', 'text/html')
-        res.end("<html><head><title>helllllllo</title></head><body>meow</body></html>")
+        res.end("<html><head><title>helllllllo</title><meta name='description' content='testing universal links'/></head><body>meow</body></html>")
     }
 
 }).listen(process.env.PORT || 5000)
