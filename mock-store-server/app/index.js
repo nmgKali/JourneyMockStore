@@ -25,7 +25,7 @@ const port = 80;
 //
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
+    res.setHeader('Content-Type', 'application/json');
     res.end("{\n" +
         "  \"applinks\": {\n" +
         "    \"apps\": [],\n" +
