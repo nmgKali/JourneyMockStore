@@ -26,7 +26,7 @@ const port = 80;
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     if (req.url.indexOf("apple") >= 0) {
-        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Content-Type', 'application/pkcs7-mime');
         res.end("{\n" +
             "  \"applinks\": {\n" +
             "    \"apps\": [],\n" +
