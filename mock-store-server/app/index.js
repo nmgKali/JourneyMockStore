@@ -6,7 +6,7 @@ const http = require('http'),
 
 
 let aasaContent;
-fs.readFile('apple-app-site-association', function (err, data) {
+fs.readFile('apple-app-site-association.txt', function (err, data) {
     if (err) {
         throw err;
     }
