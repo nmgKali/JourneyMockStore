@@ -25,7 +25,7 @@ const port = 80;
 //
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
-    if (req.url.indexOf("apple")) {
+    if (req.url.indexOf("apple") >= 0) {
         res.setHeader('Content-Type', 'application/json');
         res.end("{\n" +
             "  \"applinks\": {\n" +
