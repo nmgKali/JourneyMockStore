@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3657692-57f1-4427-81e4-c4926cc970e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601998790459</updated>
-      <workItem from="1601998792922" duration="3541000" />
+      <workItem from="1601998792922" duration="3847000" />
     </task>
     <servers />
   </component>
@@ -89,9 +93,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1745" y="-555" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601998932258">
+    <state x="1745" y="-555" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602071229125">
       <screen x="1440" y="-645" width="1920" height="1057" />
     </state>
-    <state x="1745" y="-555" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.819/1440.-645.1920.1057@1440.-645.1920.1057" timestamp="1601998932258" />
+    <state x="1745" y="-555" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.819/1440.-645.1920.1057@1440.-645.1920.1057" timestamp="1602071229125" />
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1602071259087">
+      <screen x="1440" y="-645" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.23.1440.819/1440.-645.1920.1057@1440.-645.1920.1057" timestamp="1602071259087" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1602071259086">
+      <screen x="1440" y="-645" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.23.1440.819/1440.-645.1920.1057@1440.-645.1920.1057" timestamp="1602071259086" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1602071259086">
+      <screen x="1440" y="-645" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.23.1440.819/1440.-645.1920.1057@1440.-645.1920.1057" timestamp="1602071259086" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1602071259086">
+      <screen x="1440" y="-645" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.23.1440.819/1440.-645.1920.1057@1440.-645.1920.1057" timestamp="1602071259086" />
   </component>
 </project>
