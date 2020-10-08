@@ -25,7 +25,7 @@ const hostname = 'namogoo-test-store.herokuapp.com';
 const port = 80;
 //
 const server = http.createServer((req, res) => {
-    res.statusCode = 200;
+    // res.statusCode = 200;
     // if (req.url.indexOf("apple") >= 0) {
     //     let certificate = openssl('openssl pkcs12 -in Certificates.p12 -clcerts -nokeys -out output_crt.pem');
     //
@@ -44,8 +44,8 @@ const server = http.createServer((req, res) => {
     //         "  }\n" +
     //         "}");
     // } else {
-        res.setHeader('Content-Type', 'text/html')
-        res.end("<html><head><title>helllllllo</title><meta name='description' content='testing universal links'/></head><body>meow</body></html>")
+    //     res.setHeader('Content-Type', 'text/html')
+    //     res.end("<html><head><title>helllllllo</title><meta name='description' content='testing universal links'/></head><body>meow</body></html>")
     // }
 
 }).listen(process.env.PORT || 5000)
@@ -60,7 +60,7 @@ const path = require('path')
 module.exports = function (root) {
     return function (req, res) {
         const aasa = path.join(root, 'apple-app-site-association')
-
+        console.log("joined file")
         res.set('Content-Type', 'application/pkcs7-mime')
         res.status(200)
         res.sendFile(aasa)
